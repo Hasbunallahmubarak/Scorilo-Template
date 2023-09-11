@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-s">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width = device-width,initial-scale = 1.0"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link rel="stylesheet" type="text/css" href="css/scorilo.css">
+	<link rel="stylesheet" type="text/css" href="css/template.css">
+</head>
+<body>
+	<nav>
+		<a href="#">Scorilo</a>
+		<span onclick="getN()">&#9776;</span>
+		<div id="play">
+			<a href="index.html">Home</a>
+			<a href="shop.html">Shop</a>
+			<a href="product.html">Product</a>
+			<a href="#">Check Out</a>
+			<a href="contact.html">Contact</a>
+		</div>
+	</nav>
+	<div class="bg out">
+		<div>
+			<h2 class="wow fadeInUp">Checkout</h2>
+		</div>
+	</div>
+	<section class="pay">
+		<div>
+			<h2>MAKE PAYMENT</h2>
+			<div class="rule">
+				<hr>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<hr>
+			</div>
+			<table>
+				<tr>
+					<th>Item Name</th>
+					<th>Item Price</th>
+					<th>Actions</th>
+				</tr>
+				<tr>
+					<td>
+						<img src="images/scorilo2-70x70.jpg">
+						<p>Audio Item - Single License</p>
+					</td>
+					<td>$11.99</td>
+					<td class="version"><a href="#">Remove</a></td>
+				</tr>
+				<tr>
+					<td colspan="3"><button>Save Cart</button></td>
+				</tr>
+				<tr>
+					<td colspan="3"><b>Total: $11.99</b></td>
+				</tr>
+			</table>
+			<form action="contact.php" method="POST" autocomplete="on" target="_self">
+				<fieldset>
+					<legend>Personal Info</legend>
+					<label>Email Address</label>
+					<input type="email" name="E_mail" placeholder="Email address" required="required" />
+					<label>First Name</label>
+					<input type="text" name="f_name" placeholder="First name" required="required" autofocus="on">
+					<label>Last Name</label>
+					<input type="text" name="l_name" placeholder="Last name" required="required" >
+				</fieldset>
+				<div class="buy">
+					<p><b>Purchase Total:</b> $11.99</p>
+					<input type="submit" value="PURCHASE"/>
+				</div>
+			</form>
+		</div>
+	</section>
+	<div class="promote">
+		<p  class="wow fadeInDown">Promote Items Area Give Discount to Buyers <span><i class="fa fa-gift"></i> WOW24TH</span></p>
+	</div>
+	<div class="footer">
+		<h1>Connect with Scorilo</h1>
+		<a href="#" class="fa fa-phone"></a>
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a>
+		<a href="#" class="fa fa-google-plus"></a>
+		<a href="#" class="fa fa-pinterest"></a>
+		<p>&copy;&nbsp; 2017 Your Website Name</p>
+		<p>Scorilo - developed by <a href="#">Hmabiola</a> | Template design by <a href="#"> WowThemesNet</a> </p>
+	</div>
+	<script src="Js/scorilo.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.parallax.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+</html>

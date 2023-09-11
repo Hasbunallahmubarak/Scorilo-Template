@@ -1,0 +1,26 @@
+@media screen and (max-width: 900px){
+	nav{padding: 20px 0px;}
+	nav > div{width: 100%; display: none;
+	padding: 20px 0px;padding-bottom: 5px;}
+	nav > a{display: inline-block;padding: 0px 20px;}
+	nav span{display: inline-block;padding: 0px 20px;}
+	.flex{flex-direction: column;}
+	.flex > div{width: 100%;margin: 20px 0px;}
+	.flex > div:not(:first-child){margin-left: 0px;}
+	.bg h1{font-size: 6.5vw;}
+	.bg h2{font-size: 5.3vw;}
+	.pay > div{width: 90%;}
+	nav a:not(nav > a)
+	{display: block;width: 100%;font-size: 12px;}
+	nav a:hover:not(nav > a){background-color: #ddd;}
+	.prd{height: auto;}
+}
+@media screen and (max-width: 650px){
+	section{width: 100%;margin: 0px;}
+	.rule{width: 90%;}
+	.pro > div:last-child{width: 100%;}
+	.pay > div{width: 100%;}
+	.support{width: 90%;}
+	.bg h1{font-size: 7vh;}
+	.bg h2{font-size: 5.5vh;}
+}
